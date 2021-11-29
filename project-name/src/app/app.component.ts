@@ -8,7 +8,7 @@ import { Friend } from './friend';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  public languages = ['HTML', 'CSS', 'JS', 'Ruby', 'PHP', 'TypeScript']
+  public languages = ['HTML', 'CSS', 'JS', 'Ruby', 'PHP', 'TypeScript'];
+  public friendModel = new Friend('','','',0);
 }
 
-Friend
