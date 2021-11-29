@@ -33,8 +33,10 @@ What are my questions for 11.3: what will i do to check if i full understand?
 2. I need to instantiate the FriendModel there, what structure does the friendmodel need? in component.ts instantiate following structure "const friendModel = new Friend (necessary values with commas, hardcoded null for now)
 3. the friendmodel in instatiated through the friend class, where does that need to happen? in the __component class__ or in the friend class itself?  it was the component class found in component.ts
 4. I'll need to import the friend class, but where? component class? Friendclass? elsewhere? in the component class, this i managed before lunch apperantly, looks like the others that angular does but with my own files. in this case "import { Friend } from './friend';"
-
 give no more errors, appears to have worked. moving on to 11.4
+few minutes later step 11 completed. 
+step 12: goal is checking for invalidity of inputs:
+got stuck for a few hours on #inputName="ngModel" while it had to be the #firstname="ngModel" and similar for other input fields. 
 
 
 ### Features - checklist :heavy_check_mark:
@@ -47,7 +49,7 @@ give no more errors, appears to have worked. moving on to 11.4
 >- Phone number :heavy_check_mark: 
 >- Favourite language (html, css, js, php, ...), this will be a select with options :heavy_check_mark:
 
->Error reporting, give some visual feedback to the user if they put something wrong in the inputs. TODO
+>Error reporting, give some visual feedback to the user if they put something wrong in the inputs. TODO 
 
 >Form validation TODO 
 
