@@ -64,6 +64,6 @@ __Nice-to-have features__
 
 What we might need to mention is that for this exercise as it's our first Angular app we're making that we received great documentation and a step-by step for the initial use of angular which you can review in the initial challenge repo [__here__](https://github.com/becodeorg/ANT-Lamarr-5.34/tree/fffc56a288a6d83f400d775589f910472fa12220/2.The-Hill/angular/intro)
 for this README i learned 
-  ':heavy_check_mark:' 
+  :':heavy_check_mark:' 
 and syntax for adding hyperlinks being 
-  [__linkname__](linkurl)
+  :[__linkname__](linkurl)
