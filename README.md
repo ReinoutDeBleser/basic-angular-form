@@ -21,10 +21,21 @@ After this learning challenge, it's exepected to understand and have the ability
 After reading the learning objectives I'm going to start by reading up on the basic CLI & typescript/JS differences. 
 The other four objectives feel more practical and I feel that looking at previous exercises we'll get to understand all the terminoligy while doing the exercise. 
 Will decide on next strategy step after lunch. 
+Lunch is done. Working on the 3rd bullet of the 11th step. I got stuck here before lunch, i'll separate all different elements of the step, search for definitions of the words that don't entirely click for me and try to design a solution that way. 
+I've set myself a checklist on things i need to understand to finish 11.3. 
 
 ### Log/self-reflection
 29/11/21 12:27  Spent the better part of the morning on the different steps (currently step 1-11 of 19 complete) and got about halfway through the written steps list, spent some time figuring out the syntax for ngFor and where it should be placed.  
 there is progress but i want to get mostly done today so i can start working on the extras. 
+29/11/21 14:09 Reminder from Tim to entire class, it's more important to ask the right questions and to get to a solution than it is to be stubborn and not ask help on how to approach working on one/ searching for one. 
+What are my questions for 11.3: what will i do to check if i full understand? 
+1. The component class, where is it? should be component.ts 
+2. I need to instantiate the FriendModel there, what structure does the friendmodel need? 
+3. the friendmodel in instatiated through the friend class, where does that need to happen, in the component class or in the friend class itself? 
+4. I'll need to import the friend class, but where? component class? Friendclass? elsewhere? 
+
+
+
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
