@@ -20,24 +20,29 @@ After this learning challenge, it's exepected to understand and have the ability
 ### Strategy
 After reading the learning objectives I'm going to start by reading up on the basic CLI & typescript/JS differences. 
 The other four objectives feel more practical and I feel that looking at previous exercises we'll get to understand all the terminoligy while doing the exercise. 
+Will decide on next strategy step after lunch. 
+
+### Log/self-reflection
+29/11/21 12:27  Spent the better part of the morning on the different steps (currently step 1-11 of 19 complete) and got about halfway through the written steps list, spent some time figuring out the syntax for ngFor and where it should be placed.  
+there is progress but i want to get mostly done today so i can start working on the extras. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
 >__Must have features__
->All the fields you need to put the data of your friends in your friendlist. These are:
->- First name
->- Last name
->- Email
->- Phone number
->- Favourite language (html, css, js, php, ...), this will be a select with options
+>All the fields you need to put the data of your friends in your friendlist. These are: :heavy_check_mark:
+>- First name :heavy_check_mark:
+>- Last name :heavy_check_mark:
+>- Email :heavy_check_mark: 
+>- Phone number :heavy_check_mark: 
+>- Favourite language (html, css, js, php, ...), this will be a select with options :heavy_check_mark:
 
->Error reporting, give some visual feedback to the user if they put something wrong in the inputs.
+>Error reporting, give some visual feedback to the user if they put something wrong in the inputs. TODO
 
->Form validation
+>Form validation TODO 
 
->A Friend list, do this by sending a GET request to your local node server.
+>A Friend list, do this by sending a GET request to your local node server. TODO 
 
->A POST request to add a friend to your friend list.
+>A POST request to add a friend to your friend list. TODO 
 
 
 __Nice-to-have features__
