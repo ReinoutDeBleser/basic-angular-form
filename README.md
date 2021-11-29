@@ -30,11 +30,11 @@ there is progress but i want to get mostly done today so i can start working on 
 29/11/21 14:09 Reminder from Tim to entire class, it's more important to ask the right questions and to get to a solution than it is to be stubborn and not ask help on how to approach working on one/ searching for one. 
 What are my questions for 11.3: what will i do to check if i full understand? 
 1. The component class, where is it? should be component.ts 
-2. I need to instantiate the FriendModel there, what structure does the friendmodel need? 
-3. the friendmodel in instatiated through the friend class, where does that need to happen, in the component class or in the friend class itself? 
-4. I'll need to import the friend class, but where? component class? Friendclass? elsewhere? 
+2. I need to instantiate the FriendModel there, what structure does the friendmodel need? in component.ts instantiate following structure "const friendModel = new Friend (necessary values with commas, hardcoded null for now)
+3. the friendmodel in instatiated through the friend class, where does that need to happen? in the __component class__ or in the friend class itself?  it was the component class found in component.ts
+4. I'll need to import the friend class, but where? component class? Friendclass? elsewhere? in the component class, this i managed before lunch apperantly, looks like the others that angular does but with my own files. in this case "import { Friend } from './friend';"
 
-
+give no more errors, appears to have worked. moving on to 11.4
 
 
 ### Features - checklist :heavy_check_mark:
