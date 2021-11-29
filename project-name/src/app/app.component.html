@@ -1,0 +1,28 @@
+{{ formName.value | json }}
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>basic-angular-form</title>
+</head>
+<body>
+<form #formName="ngForm">
+
+  <ul>
+    <li>First name</li> <input ngModel  #inputName="ngModel" type="text" name="firstname">
+    <li>Last name</li> <input ngModel #inputName="ngModel" type="text" name="lastname">
+    <li>Email</li> <input  ngModel #inputName="ngModel" type="text" name="email">
+    <li>Phone number</li> <input  ngModel #inputName="ngModel" type="text" name=phone>
+    <li>
+      <select name="Favourite language" id="language">
+        <option *ngFor="let language of languages; index as i">{{language}}</option>
+      </select>
+    </li>
+  </ul>
+
+  <button type="submit">Submit</button>
+</form>
+</body>
+</html>
