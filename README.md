@@ -41,6 +41,7 @@ got stuck for a few hours on #inputName="ngModel" while it had to be the #firstn
 day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. something with my regexes is not working great, also, when at any point one of the inputs isn't valid, that means that all the input field look invalid, which i'm not exactly sure of why that happens, trying to figure that out now. figured out where the red was coming from, renamed my input fields all to data previously to only make one class have to change. but that made everything flow over in each other. talking to stefan allowed me some optimisation of placeholders instead of prefilled values and using type= "email" in input instead of using regex which for now feels sufficient. 
 finished step 12: field validation now working
 finised step 13: form validation check for buttonclick allowed also working. 
+finished step 14: added some code but we'll see if it works in the next step. 
 
 
 ### Features - checklist :heavy_check_mark:
@@ -53,9 +54,9 @@ finised step 13: form validation check for buttonclick allowed also working.
 >- Phone number :heavy_check_mark: 
 >- Favourite language (html, css, js, php, ...), this is a select with options, using angular syntax :heavy_check_mark:
 
->Error reporting, give some visual feedback to the user if they put something wrong in the inputs.  :heavy_check_mark:-ish but some troubleshooting still required.  
+>Error reporting, give some visual feedback to the user if they put something wrong in the inputs.  :heavy_check_mark:  
 
->Form validation TODO 
+>Form validation :heavy_check_mark:
 
 >A Friend list, do this by sending a GET request to your local node server. TODO 
 
