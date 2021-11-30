@@ -3,5 +3,7 @@
 }
 
 .cantclick {
-
+  pointer-events: none;
+  color: #5a6268;
+  border-color: #5a6268;
 }
