@@ -38,7 +38,7 @@ give no more errors, appears to have worked. moving on to 11.4
 few minutes later step 11 completed. 
 step 12: goal is checking for invalidity of inputs:
 got stuck for a few hours on #inputName="ngModel" while it had to be the #firstname="ngModel" and similar for other input fields. 
-day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. 
+day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. something with my regexes is not working great, also, when at any point one of the inputs isn't valid, that means that all the input field look invalid, which i'm not exactly sure of why that happens, trying to figure that out now. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
@@ -50,7 +50,7 @@ day 2: step 12 stuck for now, the input field keep giving the invalid visual whi
 >- Phone number :heavy_check_mark: 
 >- Favourite language (html, css, js, php, ...), this is a select with options, using angular syntax :heavy_check_mark:
 
->Error reporting, give some visual feedback to the user if they put something wrong in the inputs. TODO 
+>Error reporting, give some visual feedback to the user if they put something wrong in the inputs.  :heavy_check_mark:-ish but some troubleshooting still required.  
 
 >Form validation TODO 
 
