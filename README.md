@@ -38,7 +38,10 @@ give no more errors, appears to have worked. moving on to 11.4
 few minutes later step 11 completed. 
 step 12: goal is checking for invalidity of inputs:
 got stuck for a few hours on #inputName="ngModel" while it had to be the #firstname="ngModel" and similar for other input fields. 
-day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. something with my regexes is not working great, also, when at any point one of the inputs isn't valid, that means that all the input field look invalid, which i'm not exactly sure of why that happens, trying to figure that out now. 
+day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. something with my regexes is not working great, also, when at any point one of the inputs isn't valid, that means that all the input field look invalid, which i'm not exactly sure of why that happens, trying to figure that out now. figured out where the red was coming from, renamed my input fields all to data previously to only make one class have to change. but that made everything flow over in each other. talking to stefan allowed me some optimisation of placeholders instead of prefilled values and using type= "email" in input instead of using regex which for now feels sufficient. 
+finished step 12: field validation now working
+finised step 13: form validation check for buttonclick allowed also working. 
+
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
