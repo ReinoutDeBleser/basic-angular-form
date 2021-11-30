@@ -13,6 +13,8 @@ export class AppComponent {
   public nameValid = /^[a-zA-Z-]+$/g;
   public lastNameValid = /[\w]+/g;
   public phoneValid = /^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
+  public submitHelp() {
+    console.log(this.friendModel)}
 }
 
 

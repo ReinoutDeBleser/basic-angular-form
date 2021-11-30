@@ -12,7 +12,7 @@
   <title>basic-angular-form</title>
 </head>
 <body>
-<form #formName="ngForm" novalidate>
+<form #formName="ngForm" novalidate  (ngSubmit)="submitHelp()">
 
   <ul>
       <li>First name:    <input name="firstname"  type="text"   required    [(ngModel)]="friendModel.firstname"  #firstname="ngModel" [class.invalidinput]="firstname.invalid && firstname.touched" [pattern]=nameValid placeholder="john"></li>
