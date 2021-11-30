@@ -22,7 +22,8 @@ After reading the learning objectives I'm going to start by reading up on the ba
 The other four objectives feel more practical and I feel that looking at previous exercises we'll get to understand all the terminoligy while doing the exercise. 
 Will decide on next strategy step after lunch. 
 Lunch is done. Working on the 3rd bullet of the 11th step. I got stuck here before lunch, i'll separate all different elements of the step, search for definitions of the words that don't entirely click for me and try to design a solution that way. 
-I've set myself a checklist on things i need to understand to finish 11.3. 
+I've set myself a checklist on things i need to understand to finish 11.3. this worked pretty well. 
+now i'm stuck on the validation visualisation in step 12. i'm going to review all previous steps to start the day and refresh my memory of what i've already completed and double-check that i haven't forgotten anything. 
 
 ### Log/self-reflection
 29/11/21 12:27  Spent the better part of the morning on the different steps (currently step 1-11 of 19 complete) and got about halfway through the written steps list, spent some time figuring out the syntax for ngFor and where it should be placed.  
@@ -37,7 +38,7 @@ give no more errors, appears to have worked. moving on to 11.4
 few minutes later step 11 completed. 
 step 12: goal is checking for invalidity of inputs:
 got stuck for a few hours on #inputName="ngModel" while it had to be the #firstname="ngModel" and similar for other input fields. 
-
+day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
@@ -47,7 +48,7 @@ got stuck for a few hours on #inputName="ngModel" while it had to be the #firstn
 >- Last name :heavy_check_mark:
 >- Email :heavy_check_mark: 
 >- Phone number :heavy_check_mark: 
->- Favourite language (html, css, js, php, ...), this will be a select with options :heavy_check_mark:
+>- Favourite language (html, css, js, php, ...), this is a select with options, using angular syntax :heavy_check_mark:
 
 >Error reporting, give some visual feedback to the user if they put something wrong in the inputs. TODO 
 
