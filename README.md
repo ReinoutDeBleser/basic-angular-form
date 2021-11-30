@@ -24,6 +24,9 @@ Will decide on next strategy step after lunch.
 Lunch is done. Working on the 3rd bullet of the 11th step. I got stuck here before lunch, i'll separate all different elements of the step, search for definitions of the words that don't entirely click for me and try to design a solution that way. 
 I've set myself a checklist on things i need to understand to finish 11.3. this worked pretty well. 
 now i'm stuck on the validation visualisation in step 12. i'm going to review all previous steps to start the day and refresh my memory of what i've already completed and double-check that i haven't forgotten anything. 
+after lunch i'm at step 15, troubleshot some errors that i couldn't figure out myself with some help from Tim. 
+currently struggling understanding how to get observer - subscribe working correctly. 
+
 
 ### Log/self-reflection
 29/11/21 12:27  Spent the better part of the morning on the different steps (currently step 1-11 of 19 complete) and got about halfway through the written steps list, spent some time figuring out the syntax for ngFor and where it should be placed.  
@@ -41,7 +44,9 @@ got stuck for a few hours on #inputName="ngModel" while it had to be the #firstn
 day 2: step 12 stuck for now, the input field keep giving the invalid visual while being valid inputs. something with my regexes is not working great, also, when at any point one of the inputs isn't valid, that means that all the input field look invalid, which i'm not exactly sure of why that happens, trying to figure that out now. figured out where the red was coming from, renamed my input fields all to data previously to only make one class have to change. but that made everything flow over in each other. talking to stefan allowed me some optimisation of placeholders instead of prefilled values and using type= "email" in input instead of using regex which for now feels sufficient. 
 finished step 12: field validation now working
 finised step 13: form validation check for buttonclick allowed also working. 
-finished step 14: added some code but we'll see if it works in the next step. 
+finished step 14: added some code but we'll see if it works in the next step. So not everything was working and it was giving weird errors. something with an errorhandler was killing my page. 
+step 15: pending, last thing keeps eluding me, need to review documentation for obverve-subscribe and implement correctly. 
+
 
 
 ### Features - checklist :heavy_check_mark:
