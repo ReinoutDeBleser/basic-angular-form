@@ -48,7 +48,7 @@ finished step 14: added some code but we'll see if it works in the next step. So
 step 15: pending, last thing keeps eluding me, need to review documentation for obverve-subscribe and implement correctly. 
 going to review the entirety of 15 and break it down step by step. 
 Day 3: step 16 is causing difficulty. came down to not having the right url when i was trying to write to and some other syntax mistakes; figured it out but took a long time. there's 4 more steps and 6 more hours today. i'll need to step it up to finish in time. 
-
+back from lunch,  at step 17-18 trying to get the last basic functionality elements working. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
