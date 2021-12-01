@@ -33,9 +33,8 @@ app.get('/allFriends', function (request, response) {
     response.send(allFriends);
 });
 
-app.post('/addFriend', function (request , response) {
-    allFriends.push(request.body);
+app.post('/addFriend', function (request, response) {
+    allFriends.push(request.body)
 });
-
 
 app.listen(PORT, function () {});

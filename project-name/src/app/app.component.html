@@ -15,8 +15,8 @@
 <form #formName="ngForm" novalidate (ngSubmit)="submitHelp()">
 
   <ul>
-      <li>First name:    <input name="firstname"  type="text"   required    [(ngModel)]="friendModel.firstname"  #firstname="ngModel" [class.invalidinput]="firstname.invalid && firstname.touched" [pattern]=nameValid placeholder="john"></li>
-      <li>Last name:     <input name="lastname"   type="text"   required    [(ngModel)]="friendModel.lastname"   #lastname="ngModel" [class.invalidinput]="lastname.invalid && lastname.touched" [pattern]=lastNameValid  placeholder="doe"></li>
+      <li>First name:    <input name="firstname"  type="text"   required    [(ngModel)]="friendModel.fName"  #firstname="ngModel" [class.invalidinput]="firstname.invalid && firstname.touched" [pattern]=nameValid placeholder="john"></li>
+      <li>Last name:     <input name="lastname"   type="text"   required    [(ngModel)]="friendModel.lName"   #lastname="ngModel" [class.invalidinput]="lastname.invalid && lastname.touched" [pattern]=lastNameValid  placeholder="doe"></li>
       <li>Email:         <input name="email"      type="email"  required    [(ngModel)]="friendModel.email"      #email="ngModel" [class.invalidinput]="email.invalid && email.touched"  email="true" placeholder="john@doe.com" ></li>
       <li>Phone number:  <input name="phone"      type="text"   required    [(ngModel)]="friendModel.phone"      #phone="ngModel" [class.invalidinput]="phone.invalid && phone.touched" [pattern]=phoneValid placeholder="+32 *** ** ** **"></li>
     <li>

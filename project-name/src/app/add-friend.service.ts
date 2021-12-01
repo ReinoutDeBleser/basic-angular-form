@@ -7,8 +7,9 @@ import { Friend } from "./friend";
 })
 export class AddFriendService {
   constructor(private http: HttpClient) {}
-  public url="http://localhost:9000/";
-  addFriend(value: Friend) {
-    return this.http.post(this.url, HttpClient);
+  public url="http://localhost:9000/addFriend";
+  addFriend(friendModel: Friend) {
+    this.http.post(this.url, friendModel)
+    return this.http.post(this.url, friendModel);
   }
 }

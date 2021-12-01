@@ -14,9 +14,12 @@ export class AppComponent {
   public nameValid = /^[a-zA-Z-]+$/;
   public lastNameValid = /[\w -]+/gm;
   public phoneValid = /^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
+
+
   public submitHelp() {
-   const subscription = this.addFriendService.addFriend(this.friendModel);
-   return subscription.subscribe( (data) => console.log(data),error => console.log("ERROR"));
+    console.log(this.friendModel);
+    let subscription = this.addFriendService.addFriend(this.friendModel);
+    return subscription.subscribe( data => console.log("data sent"), error => console.log("it didn't work"));
   }
   constructor(private addFriendService: AddFriendService) {}
 }
