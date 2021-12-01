@@ -62,11 +62,11 @@ Day 3: step 16 is causing difficulty. came down to not having the right url when
 
 >Error reporting, give some visual feedback to the user if they put something wrong in the inputs.  :heavy_check_mark:  
 
->Form validation :heavy_check_mark:
+>Form validation :heavy_check_mark: 
 
->A Friend list, do this by sending a GET request to your local node server. TODO 
+>A Friend list, do this by sending a GET request to your local node server. 
 
->A POST request to add a friend to your friend list. TODO 
+>A POST request to add a friend to your friend list. 
 
 
 __Nice-to-have features__
