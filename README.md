@@ -46,7 +46,8 @@ finished step 12: field validation now working
 finised step 13: form validation check for buttonclick allowed also working. 
 finished step 14: added some code but we'll see if it works in the next step. So not everything was working and it was giving weird errors. something with an errorhandler was killing my page. 
 step 15: pending, last thing keeps eluding me, need to review documentation for obverve-subscribe and implement correctly. 
-
+going to review the entirety of 15 and break it down step by step. 
+Day 3: step 16 is causing difficulty. came down to not having the right url when i was trying to write to and some other syntax mistakes; figured it out but took a long time. there's 4 more steps and 6 more hours today. i'll need to step it up to finish in time. 
 
 
 ### Features - checklist :heavy_check_mark:
