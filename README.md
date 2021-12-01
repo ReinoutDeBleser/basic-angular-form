@@ -49,6 +49,7 @@ step 15: pending, last thing keeps eluding me, need to review documentation for 
 going to review the entirety of 15 and break it down step by step. 
 Day 3: step 16 is causing difficulty. came down to not having the right url when i was trying to write to and some other syntax mistakes; figured it out but took a long time. there's 4 more steps and 6 more hours today. i'll need to step it up to finish in time. 
 back from lunch,  at step 17-18 trying to get the last basic functionality elements working. 
+YES i got it working, finally. basic functionality done! woop. 
 
 ### Features - checklist :heavy_check_mark:
 -finished elements will be checked off-
@@ -64,9 +65,9 @@ back from lunch,  at step 17-18 trying to get the last basic functionality eleme
 
 >Form validation :heavy_check_mark: 
 
->A Friend list, do this by sending a GET request to your local node server. 
+>A Friend list, do this by sending a GET request to your local node server.  :heavy_check_mark:
 
->A POST request to add a friend to your friend list. 
+>A POST request to add a friend to your friend list. :heavy_check_mark:
 
 
 __Nice-to-have features__
