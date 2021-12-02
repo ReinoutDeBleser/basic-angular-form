@@ -9,7 +9,7 @@ we have been part of becode for a bit and thus made a lot of friends in the proc
 - Solo challenge
 
 ## Learning Objectives 
-After this learning challenge, it's exepected to understand and have the ability to use the following. 
+After this learning challenge, it's expected to understand and have the ability to use the following. 
 - Use the angular cli commands. -self-reminder: cli stands for command line interface-
 - Have a basic understanding of typescript.  initial search provides following insight: Typescript is a strict syntactical superset of JavaScript. 
 - Generate components and services in angular. I expect this to become apparent while doing the exercise. 
